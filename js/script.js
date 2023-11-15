@@ -5,8 +5,8 @@ function initMap() {
   });
   
   var maker = new google.maps.Marker({
-  position: {lat: 41.598053655068185, lng: -87.56525859451041},
-  map:map,
+  position: { lat: 41.598053655068185, lng: -87.56525859451041},
+  map: map,
   });
   
   var infowindow = new google.maps.InfoWindow({

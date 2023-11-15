@@ -103,7 +103,13 @@ iframe {
   margin-right: auto;
 }
 
-
+#map {
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  padding: 5%;
+  margin: 0;
+}
 
 
 

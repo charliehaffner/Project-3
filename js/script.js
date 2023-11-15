@@ -19,3 +19,5 @@ function initMap() {
       icon: "../media/wilder.jpg",
     },
   };
+  
+  google.maps.event.addDomListener(window, 'load', initMap);

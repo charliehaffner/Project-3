@@ -105,11 +105,17 @@ iframe {
 }
 
 #map {
-  height: 60%;
-  width: 60%;
-  position: absolute;
-  padding: 5%;
-  margin: 0;
+  width: 80%;
+ height: 500px;
+ border-radius: 10px;
+ border-color: black;
+ border-width: thick;
+ border-style: dotted;
+ margin: 20px;
+ margin-top: 200px;
+ max-width: 100%;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 @media only screen and (max-width: 768px) {

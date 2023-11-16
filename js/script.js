@@ -16,6 +16,12 @@ function initMap() {
   });
   infowindow.open(map, marker);
 
+  const icons = {
+    gardencenter: {
+      icon: "media/download.png",
+    },
+  };
+
   var pratice = new google.maps.Marker({
     position: { lat: 41.598109, lng: -87.565204 },
     map: map

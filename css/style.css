@@ -112,5 +112,11 @@ iframe {
   margin: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  font-size: 12px;
+}
 
+@media only screen and (min-width: 769px) {
+  font-size: 16px;
+}
 

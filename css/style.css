@@ -1,3 +1,4 @@
+@import 'normalize.css';
 h1, h2, h3, p, ul, li {
   margin: 10px;
   padding: 0;

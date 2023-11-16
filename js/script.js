@@ -11,6 +11,17 @@ function initMap() {
     map: map
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: "This is where I worked over the Summer",
+  });
+  infowindow.open(map, marker);
+
+  const icons = {
+    gardencenter: {
+      icon: "media/download.png",
+    },
+  };
+
   var pratice = new google.maps.Marker({
     position: { lat: 41.598109, lng: -87.565204 },
     map: map

@@ -116,5 +116,14 @@ iframe {
  margin-right: auto;
 }
 
+@media (min-width: 800px) {
+  body {
+    background-color: #ef5555;
+  }
+  }
 
-
+@media (min-width: 1500px) {
+  body {
+    background-color: #9a77f1;
+  }
+  }
